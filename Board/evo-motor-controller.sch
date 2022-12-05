@@ -125,7 +125,7 @@ U 1 1 63828FE0
 P 1150 1700
 F 0 "J1" H 1257 2567 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1257 2476 50  0000 C CNN
-F 2 "" H 1300 1700 50  0001 C CNN
+F 2 "ConnectorsEvo:629722000214" H 1300 1700 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 1700 50  0001 C CNN
 	1    1150 1700
 	1    0    0    -1  
@@ -337,14 +337,14 @@ Wire Wire Line
 	650  3600 1100 3600
 Text Label 650  3600 0    50   ~ 0
 ERR_MOTOR
-Text Label 8350 5550 2    50   ~ 0
+Text Label 8350 5450 2    50   ~ 0
 OUTA
 Wire Wire Line
-	8050 5550 8350 5550
-Text Label 8350 5450 2    50   ~ 0
+	8050 5450 8350 5450
+Text Label 8350 5550 2    50   ~ 0
 OUTB
 Wire Wire Line
-	8050 5450 8350 5450
+	8050 5550 8350 5550
 $Comp
 L Device:D D4
 U 1 1 638B55F0
@@ -602,17 +602,6 @@ F 3 "" H 7700 5850 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L ComponentsEvo:SW_MEC_5G SW1
-U 1 1 63967894
-P 8700 3950
-F 0 "SW1" H 8700 4235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8700 4144 50  0000 C CNN
-F 2 "ComponentsEvo:SW_PUSH_6mm_H5mm" H 8700 4150 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8700 4150 50  0001 C CNN
-	1    8700 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C14
 U 1 1 6396A53D
 P 8500 4100
@@ -639,7 +628,6 @@ Wire Wire Line
 Wire Wire Line
 	8900 3950 8900 4250
 Connection ~ 8900 4250
-Connection ~ 8500 3950
 Wire Wire Line
 	7950 3950 8500 3950
 Wire Wire Line
@@ -713,44 +701,18 @@ Connection ~ 5900 4300
 $Comp
 L Device:R R3
 U 1 1 639B648D
-P 4100 1600
-F 0 "R3" V 4050 1750 50  0000 C CNN
-F 1 "10K" V 4050 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 1600 50  0001 C CNN
-F 3 "~" H 4100 1600 50  0001 C CNN
-	1    4100 1600
+P 4050 1600
+F 0 "R3" V 4000 1750 50  0000 C CNN
+F 1 "10K" V 4000 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3980 1600 50  0001 C CNN
+F 3 "~" H 4050 1600 50  0001 C CNN
+	1    4050 1600
 	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR0119
-U 1 1 639BA9D3
-P 3850 2100
-F 0 "#PWR0119" H 3850 1850 50  0001 C CNN
-F 1 "GND" H 3855 1927 50  0000 C CNN
-F 2 "" H 3850 2100 50  0001 C CNN
-F 3 "" H 3850 2100 50  0001 C CNN
-	1    3850 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Crystal Y1
-U 1 1 639C2ECA
-P 4500 1950
-F 0 "Y1" V 4550 1700 50  0000 R CNN
-F 1 "16 Mhz" V 4450 1800 50  0000 R CNN
-F 2 "" H 4500 1950 50  0001 C CNN
-F 3 "~" H 4500 1950 50  0001 C CNN
-	1    4500 1950
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5100 1900 5000 1900
 Wire Wire Line
 	5000 1900 5000 1800
-Wire Wire Line
-	5000 1800 4500 1800
-Wire Wire Line
-	4500 2100 5000 2100
 Wire Wire Line
 	5000 2100 5000 2000
 Wire Wire Line
@@ -758,45 +720,36 @@ Wire Wire Line
 $Comp
 L Device:C C5
 U 1 1 639F0C6A
-P 4100 1800
-F 0 "C5" V 4150 1850 50  0000 L CNN
-F 1 "22pF" V 4150 1550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 1650 50  0001 C CNN
-F 3 "~" H 4100 1800 50  0001 C CNN
-	1    4100 1800
+P 4050 1800
+F 0 "C5" V 4100 1850 50  0000 L CNN
+F 1 "18pF" V 4100 1550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 1650 50  0001 C CNN
+F 3 "~" H 4050 1800 50  0001 C CNN
+	1    4050 1800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4250 1800 4500 1800
-Connection ~ 4500 1800
 $Comp
 L Device:C C6
 U 1 1 63A2896B
-P 4100 2100
-F 0 "C6" V 4050 2150 50  0000 L CNN
-F 1 "22pF" V 4050 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 1950 50  0001 C CNN
-F 3 "~" H 4100 2100 50  0001 C CNN
-	1    4100 2100
+P 4050 2100
+F 0 "C6" V 4100 2150 50  0000 L CNN
+F 1 "18pF" V 4100 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 1950 50  0001 C CNN
+F 3 "~" H 4050 2100 50  0001 C CNN
+	1    4050 2100
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4250 2100 4500 2100
-Connection ~ 4500 2100
+	3900 1800 3800 1800
 Wire Wire Line
-	3950 1800 3850 1800
+	3800 1800 3800 1950
 Wire Wire Line
-	3850 1800 3850 2100
+	3800 2100 3900 2100
+Connection ~ 3800 1800
 Wire Wire Line
-	3850 2100 3950 2100
-Connection ~ 3850 2100
-Connection ~ 3850 1800
+	3900 1600 3800 1600
 Wire Wire Line
-	3950 1600 3850 1600
-Wire Wire Line
-	3850 1600 3850 1800
-Wire Wire Line
-	4250 1600 4650 1600
+	3800 1600 3800 1800
 Wire Wire Line
 	4650 1600 4650 1700
 Wire Wire Line
@@ -1241,7 +1194,7 @@ U 1 1 63EF30DC
 P 9850 5550
 F 0 "SW2" H 9850 5900 50  0000 C CNN
 F 1 "SW_DIP_x03" H 9850 5400 50  0000 C CNN
-F 2 "" H 9850 5550 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_KingTek_DSHP03TS_W7.62mm_P1.27mm" H 9850 5550 50  0001 C CNN
 F 3 "~" H 9850 5550 50  0001 C CNN
 	1    9850 5550
 	1    0    0    -1  
@@ -1424,4 +1377,75 @@ Wire Wire Line
 	5800 5400 6150 5400
 Wire Wire Line
 	6300 5200 6550 5200
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 638EE009
+P 4300 1950
+F 0 "Y1" V 4250 2350 50  0000 L CNN
+F 1 "18 MHz" V 4350 2250 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 4300 1950 50  0001 C CNN
+F 3 "~" H 4300 1950 50  0001 C CNN
+	1    4300 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 639BA9D3
+P 3800 2250
+F 0 "#PWR0119" H 3800 2000 50  0001 C CNN
+F 1 "GND" H 3805 2077 50  0000 C CNN
+F 2 "" H 3800 2250 50  0001 C CNN
+F 3 "" H 3800 2250 50  0001 C CNN
+	1    3800 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2100 4300 2100
+Wire Wire Line
+	4300 2100 5000 2100
+Connection ~ 4300 2100
+Wire Wire Line
+	4200 1800 4300 1800
+Wire Wire Line
+	4300 1800 5000 1800
+Connection ~ 4300 1800
+Wire Wire Line
+	4100 1950 3800 1950
+Connection ~ 3800 1950
+Wire Wire Line
+	3800 1950 3800 2100
+Wire Wire Line
+	3800 2250 3800 2100
+Connection ~ 3800 2250
+Connection ~ 3800 2100
+Wire Wire Line
+	4200 1600 4650 1600
+Wire Wire Line
+	4500 1950 4550 1950
+Wire Wire Line
+	4550 1950 4550 2250
+Wire Wire Line
+	3800 2250 4550 2250
+$Comp
+L Switch:SW_Push SW1
+U 1 1 639B5395
+P 8700 3950
+F 0 "SW1" H 8700 4235 50  0000 C CNN
+F 1 "SW_Push" H 8700 4144 50  0000 C CNN
+F 2 "ComponentsEvo:434121043836" H 8700 4150 50  0001 C CNN
+F 3 "~" H 8700 4150 50  0001 C CNN
+	1    8700 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 3950
+Text Notes 7350 6050 0    50   ~ 0
+TODO : Split C15 in multiple smd capacitors
+Text Notes 3650 4500 0    50   ~ 0
+TODO : Remap according to rooting
+Text Notes 7250 6300 0    50   ~ 0
+TODO : Document why OUTA and OUTB are inverted
+Text Notes 3700 6050 0    50   ~ 0
+TODO : Document 3.3V selection
+Text Notes 3650 4400 0    50   ~ 0
+TODO : Pullup I2C ?
 $EndSCHEMATC
