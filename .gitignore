@@ -181,6 +181,7 @@ bom/
 
 # Gerber export output
 out/
+*.gbr*
 
 ### Linux ###
 
