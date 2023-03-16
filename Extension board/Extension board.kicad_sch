@@ -2746,7 +2746,7 @@
     (property "Value" "Conn_02x02_Counter_Clockwise" (id 1) (at 139.7 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "ConnectorsEvo:66200621022" (id 2) (at 138.43 44.45 0)
+    (property "Footprint" "ConnectorsEvo:66200421022" (id 2) (at 138.43 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 138.43 44.45 0)
@@ -3620,7 +3620,7 @@
       (reference "J7") (unit 1) (value "Conn_02x03_Counter_Clockwise") (footprint "ConnectorsEvo:66200621022")
     )
     (path "/72f48a4e-2ab4-4370-b517-d0dc2a88e8a1"
-      (reference "J8") (unit 1) (value "Conn_02x02_Counter_Clockwise") (footprint "ConnectorsEvo:66200621022")
+      (reference "J8") (unit 1) (value "Conn_02x02_Counter_Clockwise") (footprint "ConnectorsEvo:66200421022")
     )
     (path "/665c4b3d-2f13-498c-b240-a370cf1f2370"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
