@@ -4671,7 +4671,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 28d44c91-b495-41f1-b1d2-3b14f9978bbb)
   )
-  (label "STATUS" (at 127 82.55 180) (fields_autoplaced)
+  (label "STATUS" (at 127 62.23 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2a30f23a-6512-42d8-a5d8-730f4b231d82)
   )
@@ -4919,7 +4919,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ebc6fac-a4a9-4067-932b-279f67c6f73c)
   )
-  (label "~{DRV_EN}" (at 127 62.23 180) (fields_autoplaced)
+  (label "~{DRV_EN}" (at 127 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9faf333d-a483-4968-a43b-9aa0db84f546)
   )
@@ -5658,8 +5658,8 @@
     (property "Datasheet" "~" (at -140.97 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0fa9e157-3af1-4844-9017-f8f9d8fdcf5d))
     (pin "1" (uuid 05d4740b-8e77-4b1c-ac4e-bb6bc2fa1e4c))
+    (pin "2" (uuid 0fa9e157-3af1-4844-9017-f8f9d8fdcf5d))
     (instances
       (project "Evo Motor Controller V1"
         (path "/a960af5b-fff4-4cf0-918a-a36f63e6acff"
@@ -6686,8 +6686,8 @@
     (property "Datasheet" "~" (at -140.97 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 850ca51a-a89c-4316-a181-0d2d111bebd5))
     (pin "1" (uuid 450dcb35-c331-4fd9-ab91-911be33ed484))
+    (pin "2" (uuid 850ca51a-a89c-4316-a181-0d2d111bebd5))
     (instances
       (project "Evo Motor Controller V1"
         (path "/a960af5b-fff4-4cf0-918a-a36f63e6acff"
