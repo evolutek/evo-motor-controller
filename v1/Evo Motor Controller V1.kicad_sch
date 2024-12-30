@@ -6597,8 +6597,8 @@
     (property "Datasheet" "~" (at -194.31 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e181fb54-f94a-4f94-bd00-fe77a32781a0))
-    (pin "2" (uuid 597d4b05-f225-4e54-bd17-566e2ab96e97))
+    (pin "1" (uuid de58f914-0887-4f6e-8354-7847ae069051))
+    (pin "2" (uuid 06b46efd-874e-4106-8b81-2af9302f559e))
     (instances
       (project "Evo Motor Controller V1"
         (path "/a960af5b-fff4-4cf0-918a-a36f63e6acff"
