@@ -474,7 +474,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "${LIBELEC}/TemplateKicad/TemplateEvolutek.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -488,6 +488,10 @@
     [
       "a960af5b-fff4-4cf0-918a-a36f63e6acff",
       ""
+    ],
+    [
+      "85ac5736-a9ca-4f08-9e37-9aea92ef6ded",
+      "TMC2160"
     ]
   ],
   "text_variables": {}
