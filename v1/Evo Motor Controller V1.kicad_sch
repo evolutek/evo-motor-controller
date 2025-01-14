@@ -6,7 +6,7 @@
 
   (title_block
     (title "Evo Motor Controller")
-    (date "2025-01-12")
+    (date "2025-01-14")
     (rev "1.0")
   )
 
@@ -3270,8 +3270,8 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 73e38464-7710-42d2-907f-01c224e36eda)
   )
-  (text_box "Mounting/Labels\n\n\n"
-    (at 199.39 93.98 0) (size 41.91 26.67)
+  (text_box "Mounting\n\n\n\n"
+    (at 199.39 93.98 0) (size 41.91 19.05)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
